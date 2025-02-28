@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #1a6afc;
+}
+
+.body {
+  width: 95%;
+  display: flex;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
+.body p {
+  margin: 0px;
+  margin-right: 1.5vw;
+  letter-spacing: -0.04em;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.body span {
+  opacity: 0.6;
+}
