@@ -1,10 +1,10 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
-import Layout from "../components/layout";
 import HomePage from "../features/home/pages/HomePage";
 import AboutPage from "../features/about/pages/AboutPage";
 import ProcessPage from "../features/process/pages/ProcessPage";
 import ContactPage from "../features/contact/pages/ContactPage";
+import Layout from "../components/Layout";
 
 const router = createBrowserRouter([
   {
