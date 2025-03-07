@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
 import { HiArrowUpRight } from "react-icons/hi2";
-import { IoMenuSharp } from "react-icons/io5";
-
+import { LiaGripLinesSolid } from "react-icons/lia";
 
 const Header = () => {
   const [headerList, setHeaderList] = useState([
@@ -22,8 +21,8 @@ const Header = () => {
 
   return (
     <nav>
-      <div className="hidden lg:block">
-        <div className="bg-white text-small flex justify-between gap-5 px-2 py-1 text-ink font-instrument fixed ms-5 mt-3 rounded-full">
+      <div className="hidden lg:block ">
+        <div className="bg-white shadow-sm z-20 text-small flex justify-between gap-5 px-2 py-1 text-ink font-instrument fixed ms-5 mt-3 rounded-full">
           {headerList.map((el) => (
             <Link
               onClick={() => isClicked(el.id)}
@@ -39,17 +38,17 @@ const Header = () => {
             </Link>
           ))}
         </div>
-        <div className=" text-small flex items-center justify-between px-2 py-1 text-ink font-instrument fixed me-5 mt-2 right-0 top-0 ">
-          <p className="px-6 py-2  bg-white rounded-full">Feel free to ask</p>
-          <div className="p-2 text-ink bg-white rounded-full">
+        <div className="z-20 text-small flex items-center justify-between px-2 py-1 text-ink font-instrument fixed me-5 mt-2 right-0 top-0 ">
+          <p className="px-6 py-2  bg-white shadow-sm rounded-full">Feel free to ask</p>
+          <div className="p-2 text-ink bg-white rounded-full shadow-sm">
             <HiArrowUpRight className="size-7" />
           </div>
         </div>
       </div>
       <div className="block lg:hidden">
-        <div className=" text-small flex items-center justify-between px-2 py-1 text-ink font-instrument fixed me-5 mt-2 right-0 top-0 ">
-          <div className="p-2 text-clean bg-white rounded-full">
-            <IoMenuSharp className="size-10"/>
+        <div className=" text-small flex z-20 items-center justify-between px-2 py-1 text-ink font-instrument fixed me-5 mt-2 right-0 top-0 ">
+          <div className="p-2 text-white bg-clean  rounded-full">
+            <LiaGripLinesSolid className="size-10" />
           </div>
         </div>
       </div>

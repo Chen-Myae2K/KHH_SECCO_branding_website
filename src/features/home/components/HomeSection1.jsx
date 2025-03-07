@@ -8,7 +8,7 @@ const HomeSection1 = () => {
   return (
     <section className="font-instrument ">
       <Container>
-        <div className="font-instrument text-[36px] md:text-[90px] my-[30%] lg:my-[20%] font-medium leading-[1] ">
+        <div className="font-instrument text-clean text-[45px] md:text-[90px] my-[30%] lg:my-[20%] font-medium leading-[1] ">
           <TextReveal phrase={phrase1} />
         </div>
       </Container>

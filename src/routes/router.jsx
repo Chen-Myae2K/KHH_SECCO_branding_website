@@ -4,7 +4,7 @@ import HomePage from "../features/home/pages/HomePage";
 import AboutPage from "../features/about/pages/AboutPage";
 import ProcessPage from "../features/process/pages/ProcessPage";
 import ContactPage from "../features/contact/pages/ContactPage";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
 const router = createBrowserRouter([
   {
