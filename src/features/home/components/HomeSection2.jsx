@@ -16,7 +16,7 @@ const HomeSection2 = () => {
   const description = useRef(null);
   const isInView = useInView(description);
   return (
-    <section className="text-black font-instrument tracking-tight">
+    <section className="text-black font-instrument tracking-tighter">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-3">
           <div className="col-span-1 md:text-3xl text-xl max-lg:mb-10">
