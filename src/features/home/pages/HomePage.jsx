@@ -3,7 +3,7 @@ import HomeSection1 from "../components/HomeSection1";
 import TextReveal from "../../../components/TextReveal";
 import HomeSection2 from "../components/HomeSection2";
 import HomeSection3 from "../components/HomeSection3";
-import HeroSection from "../components/herosection";
+import HeroSection from "../components/Herosection";
 import HomeSection4 from "../components/HomeSection4";
 import HomeSection5 from "../components/HomeSection5";
 import HomeSection6 from "../components/HomeSection6";
