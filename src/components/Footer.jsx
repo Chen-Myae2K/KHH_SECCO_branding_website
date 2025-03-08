@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import { HiArrowDownRight } from "react-icons/hi2";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -39,25 +39,24 @@ const Footer = () => {
               fill="white"
             />
           </svg>
-          <div className="md:mt-5 mt-3 w-full overflow-x-hidden">
-              <svg
-                width="100%"
-                height="2"
-                viewBox="0 0 500 2"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                
-              >
-                <motion.path
-                  initial={{ pathLength: 0 }}
-                  whileInView={{ pathLength: 1 }}
-                  transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
-                  stroke="white"
-                  stroke-width="2"
-                />
-              </svg>
-            </div>
+          <div className="md:mt-5 mt-3 overflow-x-hidden">
+            <svg
+              width="1236"
+              height="2"
+              viewBox="0 0 1236 2"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className=""
+            >
+              <motion.path
+                initial={{ pathLength: 0 }}
+                whileInView={{ pathLength: 1 }}
+                transition={{ duration: 1, ease: "easeInOut" }}
+                d="M0 1H275H615.5H903H1223H1235.5"
+                stroke="white"
+              />
+            </svg>
+          </div>
         </div>
         <div className="py-5 md:text-base text-xs flex justify-between">
           <p>copyright2024. All Rights Reserved</p>

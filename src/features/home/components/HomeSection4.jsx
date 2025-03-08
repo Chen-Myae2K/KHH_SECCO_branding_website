@@ -20,21 +20,21 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
-            <div className="lg:hidden overflow-x-hidden w-full">
+            <div className="overflow-x-hidden lg:hidden">
               <svg
-                width="100%"
+                width="1236"
                 height="2"
-                viewBox="0 0 500 2"
+                viewBox="0 0 1236 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className=""
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
+                  d="M0 1H275H615.5H903H1223H1235.5"
                   stroke="black"
-                  stroke-width="1"
                 />
               </svg>
             </div>
@@ -53,21 +53,21 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
-            <div className="lg:hidden overflow-x-hidden w-full">
+            <div className="overflow-x-hidden lg:hidden">
               <svg
-                width="100%"
+                width="1236"
                 height="2"
-                viewBox="0 0 500 2"
+                viewBox="0 0 1236 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className=""
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
+                  d="M0 1H275H615.5H903H1223H1235.5"
                   stroke="black"
-                  stroke-width="1"
                 />
               </svg>
             </div>
@@ -81,21 +81,21 @@ const HomeSection4 = () => {
               to remove any pre-existing moisture, ensuring maximum efficiency
               before use.
             </p>
-            <div className="lg:hidden overflow-x-hidden w-full">
+            <div className="overflow-x-hidden lg:hidden">
               <svg
-                width="100%"
+                width="1236"
                 height="2"
-                viewBox="0 0 500 2"
+                viewBox="0 0 1236 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className=""
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
+                  d="M0 1H275H615.5H903H1223H1235.5"
                   stroke="black"
-                  stroke-width="1"
                 />
               </svg>
             </div>
@@ -112,21 +112,21 @@ const HomeSection4 = () => {
               </span>
             </p>
 
-            <div className="lg:hidden overflow-x-hidden w-full">
+            <div className="overflow-x-hidden lg:hidden">
               <svg
-                width="100%"
+                width="1236"
                 height="2"
-                viewBox="0 0 500 2"
+                viewBox="0 0 1236 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className=""
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
+                  d="M0 1H275H615.5H903H1223H1235.5"
                   stroke="black"
-                  stroke-width="1"
                 />
               </svg>
             </div>

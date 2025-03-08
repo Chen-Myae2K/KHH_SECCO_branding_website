@@ -26,8 +26,6 @@ const Header = () => {
     );
   };
 
-
-
   return (
     <nav>
       <div className="hidden lg:block ">
@@ -86,24 +84,23 @@ const Header = () => {
               } px-4 text-[12vw] font-instrument tracking-tight text-center `}
             >
               {el.name}
-              <div className="overflow-x-hidden w-full">
-              <svg
-                width="100%"
-                height="2"
-                viewBox="0 0 500 2"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-             
-              >
-                <motion.path
-                  initial={{ pathLength: 0 }}
-                  whileInView={{ pathLength: 1 }}
-                  transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
-                  stroke="#1A6AFC"
-                  stroke-width="3"
-                />
-              </svg>
+              <div className="overflow-x-hidden">
+                <svg
+                  width="1236"
+                  height="2"
+                  viewBox="0 0 1236 2"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className=""
+                >
+                  <motion.path
+                    initial={{ pathLength: 0 }}
+                    whileInView={{ pathLength: 1 }}
+                    transition={{ duration: 1, ease: "easeInOut" }}
+                    d="M0 1H275H615.5H903H1223H1235.5"
+                    stroke="#1A6AFC"
+                  />
+                </svg>
               </div>
             </Link>
           ))}
