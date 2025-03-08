@@ -41,9 +41,9 @@ const Footer = () => {
           </svg>
           <div className="md:mt-5 mt-3 overflow-hidden">
               <svg
-                width="100%"
+                width="full"
                 height="2"
-                viewBox="0 0 1522 2"
+                viewBox="0 0 full 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 

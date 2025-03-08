@@ -86,11 +86,11 @@ const Header = () => {
               } px-4 text-[12vw] font-instrument tracking-tight text-center `}
             >
               {el.name}
-              <div className="overflow-hidden">
+              <div className="overflow-x-hidden">
               <svg
-                width="100%"
+                width="full"
                 height="2"
-                viewBox="0 0 1522 2"
+                viewBox="0 0 full 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
              
