@@ -93,7 +93,7 @@ const HomeSection2 = () => {
 
             <div className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
-              <span className="md:text-xl text-sm">Our Company</span>
+              <span className="md:text-xl text-base">Our Company</span>
             </div>
           </div>
         </div>

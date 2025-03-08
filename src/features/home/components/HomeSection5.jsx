@@ -74,7 +74,7 @@ const HomeSection5 = () => {
             <p><span className="text-clean">Special thanks</span> to our amazing partners for their support!</p>
             <div className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
-              <span className="md:text-xl text-sm">Become a partner</span>
+              <span className="md:text-xl text-base">Become a partner</span>
             </div>
           </div>
         </div>

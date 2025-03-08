@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="col-span-1 md:ms-auto">
             <div className="group hover:text-white hover:border-b-white inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-white">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
-              <span className="md:text-xl text-sm">Start to contact us</span>
+              <span className="md:text-xl text-base">Start to contact us</span>
             </div>
           </div>
         </div>
