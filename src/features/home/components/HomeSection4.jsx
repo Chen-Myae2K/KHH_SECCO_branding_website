@@ -1,16 +1,17 @@
 import React from "react";
 import Container from "../../../components/Container";
+import { motion, useInView } from "framer-motion";
 
 const HomeSection4 = () => {
   return (
     <section className="font-instrument mt-32  text-black">
       <Container>
         <div className="grid grid-cols-4 gap-5">
-          <div className="col-span-4  md:col-span-1 max-md:border-b md:border-r md:h-[80dvh] flex flex-col justify-between border-black">
-            <p className="text-5xl md:text-6xl font-medium tracking-tighter">
+          <div className="col-span-4  lg:col-span-1 lg:border-r lg:h-[80dvh] flex flex-col justify-between border-black">
+            <p className="text-5xl lg:text-6xl font-medium tracking-tighter">
               process
             </p>
-            <p className="md:text-xl tracking-tight text-base max-md:my-10">
+            <p className="lg:text-xl tracking-tight text-base max-lg:my-10">
               Desiccants control moisture to protect products from humidity
               damage. The{" "}
               <span className="text-clean">
@@ -19,12 +20,31 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
+            <div className="lg:hidden">
+              <svg
+                width="full"
+                height="2"
+                viewBox="0 0 1522 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <motion.path
+                  initial={{ pathLength: 0 }}
+                  whileInView={{ pathLength: 1 }}
+                  transition={{ duration: 1, ease: "easeInOut" }}
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  stroke="black"
+                  stroke-width="1"
+                />
+              </svg>
+            </div>
           </div>
-          <div className="col-span-4  md:col-span-1 max-md:border-b md:border-r md:h-[80dvh] flex flex-col justify-between border-black">
-            <p className="text-5xl md:text-6xl font-medium tracking-tighter">
+
+          <div className="col-span-4  lg:col-span-1 lg:border-r lg:h-[80dvh] flex flex-col justify-between border-black">
+            <p className="text-5xl lg:text-6xl font-medium tracking-tighter">
               material <span className="text-clean">selection</span>
             </p>
-            <p className="md:text-xl tracking-tight text-base max-md:my-10">
+            <p className="lg:text-xl tracking-tight text-base max-lg:my-10">
               Desiccants control moisture to protect products from humidity
               damage. The{" "}
               <span className="text-clean">
@@ -33,26 +53,82 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
+            <div className="lg:hidden">
+              <svg
+                width="full"
+                height="2"
+                viewBox="0 0 1522 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <motion.path
+                  initial={{ pathLength: 0 }}
+                  whileInView={{ pathLength: 1 }}
+                  transition={{ duration: 1, ease: "easeInOut" }}
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  stroke="black"
+                  stroke-width="1"
+                />
+              </svg>
+            </div>
           </div>
-          <div className="col-span-4  md:col-span-1 max-md:border-b md:border-r md:h-[80dvh] flex flex-col justify-between border-black">
-            <p className="text-5xl md:text-6xl text-clean font-medium tracking-tighter">
+          <div className="col-span-4  lg:col-span-1  lg:border-r lg:h-[80dvh] flex flex-col justify-between border-black">
+            <p className="text-5xl lg:text-6xl text-clean font-medium tracking-tighter">
               activation
             </p>
-            <p className="md:text-xl tracking-tight text-base max-md:my-10">
+            <p className="lg:text-xl tracking-tight text-base max-lg:my-10">
               Desiccants are <span className="text-clean">dried or heated</span>{" "}
               to remove any pre-existing moisture, ensuring maximum efficiency
               before use.
             </p>
+            <div className="lg:hidden">
+              <svg
+                width="full"
+                height="2"
+                viewBox="0 0 1522 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <motion.path
+                  initial={{ pathLength: 0 }}
+                  whileInView={{ pathLength: 1 }}
+                  transition={{ duration: 1, ease: "easeInOut" }}
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  stroke="black"
+                  stroke-width="1"
+                />
+              </svg>
+            </div>
           </div>
-          <div className="col-span-4  md:col-span-1 max-md:border-b  md:h-[80dvh] flex flex-col justify-between border-black">
-            <p className="text-5xl md:text-6xl font-medium tracking-tighter">
+          <div className="col-span-4  lg:col-span-1 lg:h-[80dvh] flex flex-col justify-between border-black">
+            <p className="text-5xl lg:text-6xl font-medium tracking-tighter">
               <span className="text-clean">moisture</span> absorption
             </p>
-            <p className="md:text-xl tracking-tight text-base max-md:my-10">
+            <p className="lg:text-xl tracking-tight text-base max-lg:my-10">
               The desiccant captures water vapor from the surrounding air,
-              either chemically (absorption) or physically (adsorption), <span className="text-clean">helping
-              maintain low humidity levels.</span>
+              either chemically (absorption) or physically (adsorption),{" "}
+              <span className="text-clean">
+                helping maintain low humidity levels.
+              </span>
             </p>
+            <div className="lg:hidden">
+              <svg
+                width="full"
+                height="2"
+                viewBox="0 0 1522 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <motion.path
+                  initial={{ pathLength: 0 }}
+                  whileInView={{ pathLength: 1 }}
+                  transition={{ duration: 1, ease: "easeInOut" }}
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  stroke="black"
+                  stroke-width="1"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </Container>

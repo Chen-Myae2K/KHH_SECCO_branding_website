@@ -22,7 +22,7 @@ const HomeSection2 = () => {
           <div className="col-span-1 md:text-3xl text-xl max-lg:mb-10">
             (Info)
           </div>
-          <div className="lg:col-span-2 grid-cols-1 md:text-4xl text-lg md:leading-[47px] ">
+          <div className="lg:col-span-2 grid-cols-1 md:text-3xl text-lg md:leading-[47px] ">
             <p className="mb-10 leading-tight" ref={description}>
               {phrase1.split(" ").map((word, index) => {
                 if (word === "preservation.") {
@@ -93,7 +93,7 @@ const HomeSection2 = () => {
 
             <div className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
-              <span className="md:text-xl text-base">Our Company</span>
+              <span className="md:text-xl text-sm">Our Company</span>
             </div>
           </div>
         </div>
