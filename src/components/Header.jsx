@@ -90,7 +90,7 @@ const Header = () => {
               <svg
                 width="100%"
                 height="2"
-                viewBox="0 0 1522 2"
+                viewBox="0 0 500 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
              
@@ -99,7 +99,7 @@ const Header = () => {
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
                   stroke="#1A6AFC"
                   stroke-width="3"
                 />

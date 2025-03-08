@@ -20,11 +20,11 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
-            <div className="lg:hidden overflow-x-hidden w-100%">
+            <div className="lg:hidden overflow-x-hidden w-full">
               <svg
                 width="100%"
                 height="2"
-                viewBox="0 0 1522 105"
+                viewBox="0 0 500 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -32,7 +32,7 @@ const HomeSection4 = () => {
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
                   stroke="black"
                   stroke-width="1"
                 />
@@ -53,20 +53,19 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
-            <div className="lg:hidden overflow-x-hidden w-100%">
+            <div className="lg:hidden overflow-x-hidden w-full">
               <svg
                 width="100%"
                 height="2"
-                viewBox="0 0 1522 105"
+                viewBox="0 0 500 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
                   stroke="black"
                   stroke-width="1"
                 />
@@ -82,11 +81,11 @@ const HomeSection4 = () => {
               to remove any pre-existing moisture, ensuring maximum efficiency
               before use.
             </p>
-            <div className="lg:hidden overflow-x-hidden w-100%">
+            <div className="lg:hidden overflow-x-hidden w-full">
               <svg
                 width="100%"
                 height="2"
-                viewBox="0 0 1522 2"
+                viewBox="0 0 500 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -94,7 +93,7 @@ const HomeSection4 = () => {
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
                   stroke="black"
                   stroke-width="1"
                 />
@@ -112,11 +111,12 @@ const HomeSection4 = () => {
                 helping maintain low humidity levels.
               </span>
             </p>
-            <div className="lg:hidden overflow-x-hidden w-100%">
+
+            <div className="lg:hidden overflow-x-hidden w-full">
               <svg
                 width="100%"
                 height="2"
-                viewBox="0 0 1522 105"
+                viewBox="0 0 500 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -124,7 +124,7 @@ const HomeSection4 = () => {
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
                   stroke="black"
                   stroke-width="1"
                 />

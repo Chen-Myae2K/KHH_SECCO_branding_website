@@ -39,11 +39,11 @@ const Footer = () => {
               fill="white"
             />
           </svg>
-          <div className="md:mt-5 mt-3 overflow-hidden">
+          <div className="md:mt-5 mt-3 w-full overflow-x-hidden">
               <svg
-                width="full"
+                width="100%"
                 height="2"
-                viewBox="0 0 full 2"
+                viewBox="0 0 500 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 
@@ -52,7 +52,7 @@ const Footer = () => {
                   initial={{ pathLength: 0 }}
                   whileInView={{ pathLength: 1 }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H1522"
+                  d="M0 1.25H215.5H467.5H673.5H925.5H1256.5H500"
                   stroke="white"
                   stroke-width="2"
                 />

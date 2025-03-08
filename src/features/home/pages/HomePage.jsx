@@ -11,12 +11,19 @@ import HeroSec from "../components/HeroSec";
 const HomePage = () => {
   useEffect(() => {
     const lenis = new Lenis();
+
+    // Scroll to the top after Lenis initializes
+    setTimeout(() => {
+      lenis.scrollTo(0, { immediate: true });
+    }, 100);
+
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
     requestAnimationFrame(raf);
   }, []);
+
   return (
     <>
       <HeroSec />
