@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import HomeSection1 from "../components/HomeSection1";
-import TextReveal from "../../../components/TextReveal";
 import HomeSection2 from "../components/HomeSection2";
 import HomeSection3 from "../components/HomeSection3";
-import HeroSection from "../components/Herosection";
 import HomeSection4 from "../components/HomeSection4";
 import HomeSection5 from "../components/HomeSection5";
 import HomeSection6 from "../components/HomeSection6";
 import Lenis from "lenis";
+import HeroSec from "../components/HeroSec";
 
 const HomePage = () => {
   useEffect(() => {
@@ -20,7 +19,7 @@ const HomePage = () => {
   }, []);
   return (
     <>
-      <HeroSection />
+      <HeroSec />
       <HomeSection1 />
       <HomeSection2 />
       <HomeSection3 />

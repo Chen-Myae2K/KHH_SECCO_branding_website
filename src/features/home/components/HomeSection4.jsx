@@ -27,6 +27,7 @@ const HomeSection4 = () => {
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="overflow-hidden"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
@@ -60,6 +61,8 @@ const HomeSection4 = () => {
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="overflow-hidden"
+
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
@@ -88,6 +91,7 @@ const HomeSection4 = () => {
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="overflow-hidden"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
@@ -118,6 +122,7 @@ const HomeSection4 = () => {
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="overflow-hidden"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
