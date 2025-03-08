@@ -20,14 +20,13 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
-            <div className="lg:hidden">
+            <div className="lg:hidden overflow-hidden">
               <svg
-                width="full"
+                width="100%"
                 height="2"
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="overflow-hidden"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
@@ -54,14 +53,13 @@ const HomeSection4 = () => {
               , activation, shaping, and packaging, ensuring high-quality
               solutions for various industries.
             </p>
-            <div className="lg:hidden">
+            <div className="lg:hidden overflow-hidden">
               <svg
-                width="full"
+                width="100%"
                 height="2"
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="overflow-hidden"
 
               >
                 <motion.path
@@ -84,14 +82,13 @@ const HomeSection4 = () => {
               to remove any pre-existing moisture, ensuring maximum efficiency
               before use.
             </p>
-            <div className="lg:hidden">
+            <div className="lg:hidden overflow-hidden">
               <svg
-                width="full"
+                width="100%"
                 height="2"
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="overflow-hidden"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
@@ -115,14 +112,13 @@ const HomeSection4 = () => {
                 helping maintain low humidity levels.
               </span>
             </p>
-            <div className="lg:hidden">
+            <div className="lg:hidden overflow-hidden">
               <svg
-                width="full"
+                width="100%"
                 height="2"
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="overflow-hidden"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}

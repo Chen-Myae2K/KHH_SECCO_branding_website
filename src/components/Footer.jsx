@@ -39,14 +39,14 @@ const Footer = () => {
               fill="white"
             />
           </svg>
-          <div className="md:mt-5 mt-3">
+          <div className="md:mt-5 mt-3 overflow-hidden">
               <svg
-                width="full"
+                width="100%"
                 height="2"
                 viewBox="0 0 1522 2"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="overflow-hidden"
+                
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
