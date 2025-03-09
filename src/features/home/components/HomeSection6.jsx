@@ -38,7 +38,7 @@ const HomeSection6 = () => {
             Feel free to{" "}
             <span className="relative">
               reach out
-              <svg
+              {/* <svg
                 width="160"
                 height="6"
                 viewBox="0 0 160 6"
@@ -55,7 +55,7 @@ const HomeSection6 = () => {
                   stroke-linecap="round"
                   stroke-width="2"
                 />
-              </svg>
+              </svg> */}
             </span>{" "}
             an email on
           </p>

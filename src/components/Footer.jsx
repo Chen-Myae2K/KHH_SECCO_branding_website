@@ -51,7 +51,7 @@ const Footer = () => {
               <motion.path
                 initial={{ pathLength: 0 }}
                 whileInView={{ pathLength: 1 }}
-                transition={{ duration: 1, ease: "easeInOut" }}
+                transition={{ duration: 2, ease: "easeInOut" }}
                 d="M0 1H275H615.5H903H1223H1235.5"
                 stroke="white"
               />

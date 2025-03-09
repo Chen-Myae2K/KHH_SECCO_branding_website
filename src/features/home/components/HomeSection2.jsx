@@ -34,6 +34,7 @@ const HomeSection2 = () => {
                       <motion.span
                         variants={slideUp}
                         custom={index}
+                        whileInView={"open"}
                         animate={isInView ? "open" : "closed"}
                         className="inline-block"
                       >
