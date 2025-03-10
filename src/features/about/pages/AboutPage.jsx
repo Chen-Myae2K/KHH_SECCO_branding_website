@@ -7,6 +7,7 @@ import AboutSection4 from "../components/AboutSection4";
 import AboutSection5 from "../components/AboutSection5";
 import AboutSection6 from "../components/AboutSection6";
 import AboutSection7 from "../components/AboutSection7";
+import AboutSection8 from "../components/AboutSection8";
 
 const AboutPage = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const AboutPage = () => {
       <AboutSection3 />
       <AboutSection4 />
       <AboutSection5 />
+      <AboutSection8 />
       <AboutSection6 />
       <AboutSection7 />
     </>

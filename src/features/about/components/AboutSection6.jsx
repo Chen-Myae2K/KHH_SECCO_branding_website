@@ -3,10 +3,13 @@ import TextReveal from "../../../components/TextReveal";
 import Container from "../../../components/Container";
 import { HiArrowDownRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
+import useFaqStore from "../../../store/useFaqStore";
+import Faq from "./Faq";
 
 const AboutSection6 = () => {
+  const { questions } = useFaqStore();
   return (
-    <section className=" font-instrument tracking-tighter mt-24 ">
+    <section className=" font-instrument tracking-tighter mt-32 ">
       <Container>
         <TextReveal text="Frequently Asked Questions"></TextReveal>
         <div className="flex items-end gap-3 mb-10 md:mb-20">
@@ -31,18 +34,13 @@ const AboutSection6 = () => {
                 transition={{ duration: 2, ease: "easeInOut" }}
                 d="M0.191406 2H231H329.559"
                 stroke="#1A6AFC"
-                stroke-width="2"
+                stroke-width="3"
               />
             </svg>
           </div>
         </div>
-        <div>
-          <div className="flex justify-between border-b-[1.5px] border-clean py-4 items-end">
-            <p className="text-xl md:text-4xl text-black">
-              What are desiccants?
-            </p>
-            <HiArrowDownRight className="size-7 md:size-10" />
-          </div>
+        {/* <div>
+          
           <div className="flex justify-between border-b-[1.5px] border-clean py-4 items-end">
             <p className="text-xl md:text-4xl text-black">
               What is powder desiccant?
@@ -67,7 +65,10 @@ const AboutSection6 = () => {
             </p>
             <HiArrowDownRight className="size-7 md:size-10" />
           </div>
-        </div>
+        </div> */}
+        {questions.map((el) => (
+          <Faq faq={el} key={el.id}></Faq>
+        ))}
       </Container>
     </section>
   );
