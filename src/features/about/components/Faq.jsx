@@ -11,7 +11,7 @@ const Faq = ({ faq: { id, question, answer, isOpen } }) => {
   return (
     <>
       <div  onClick={handleFaq} className="flex justify-between border-b-[1.5px] border-clean py-4 items-end">
-        <p className="text-xl md:text-4xl text-black">{question}</p>
+        <p className="md:text-3xl text-lg text-black">{question}</p>
         <HiArrowDownRight className={`${isOpen && "-rotate-90 text-clean" } size-7 duration-200 md:size-10`} />
       </div>
       <div className={`${isOpen ? "block " : "hidden"}   text-base md:text-xl text-ink py-4`}>
