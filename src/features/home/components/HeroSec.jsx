@@ -21,7 +21,7 @@ const HeroSec = () => {
         <img src={cargoship} className="" alt="" />
       </div>
       <div className="lg:hidden block">
-        <img src={cargoshipmobile} className="w-full p-5" alt="" />
+        <img src={cargoshipmobile} className="w-full p-2" alt="" />
       </div>
     </section>
   );
