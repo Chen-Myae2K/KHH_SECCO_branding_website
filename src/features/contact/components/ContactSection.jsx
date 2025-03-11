@@ -7,15 +7,17 @@ const ContactSection = () => {
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Left Section */}
-          <div className="col-span-1 me-28 flex flex-col justify-between">
+          <div className="col-span-1  flex flex-col justify-between">
             <p className="text-5xl lg:text-6xl text-clean font-medium tracking-tighter">
               contact <span className="text-black">with us</span>
             </p>
-            <p className="md:text-3xl text-lg py-10">
+            <p className="text-5xl py-10 lg:me-28 lg:block hidden tracking-tighter leading-tight">
               WANT TO <span className="text-clean">GET IN TOUCH</span> OR{" "}
-              <span className="font-serif italic">work together</span> ON YOUR
-              PROJECT?{" "}
-              <span className="text-clean font-serif italic ">reach out</span>
+              <span className="font-serif italic text-4xl">work together</span>{" "}
+              ON YOUR PROJECT?{" "}
+              <span className="text-clean font-serif italic text-4xl">
+                reach out
+              </span>
             </p>
           </div>
           {/* Contact Form */}
