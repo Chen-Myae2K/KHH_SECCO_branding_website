@@ -5,6 +5,7 @@ import { HiArrowDownRight } from "react-icons/hi2";
 import fourjars from "../../../images/fourjars.png";
 import fourjarsbg from "../../../images/4jarbgrice.png";
 import { slideUp } from "../../../components/animation";
+import { Link } from "react-router";
 
 const phrase1 =
   "This is a place where moisture meets its match. A place of protection. A place of preservation. A place where an advanced desiccant technology to maintain quality and stability.";
@@ -92,10 +93,10 @@ const HomeSection2 = () => {
             </p>
           
 
-            <div className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
+            <Link to="/about" className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
               <span className="md:text-xl text-base">Our Company</span>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex lg:flex-row flex-col justify-center  overflow-hidden  gap-2 mt-10 ">

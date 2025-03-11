@@ -4,6 +4,7 @@ import Container from "../../../components/Container";
 import { HiArrowDownRight } from "react-icons/hi2";
 import { slideUp } from "../../../components/animation";
 import dottedblue from "../../../images/blueheartdotted.png";
+import { Link } from "react-router";
 
 const phrase1 =
   "We take pride in collaborating with industry leading partners to deliver the best to our customers. Each of our partners brings unique expertise, empowering us to achieve excellence together.";
@@ -72,10 +73,10 @@ const HomeSection5 = () => {
           </div>
           <div className="col-span-1 lg:hidden md:text-3xl text-lg">
             <p><span className="text-clean">Special thanks</span> to our amazing partners for their support!</p>
-            <div className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
+            <Link to="/contact" className="group hover:text-clean hover:border-b-clean inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-ink">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
               <span className="md:text-xl text-base">Become a partner</span>
-            </div>
+            </Link>
           </div>
         </div>
       </Container>

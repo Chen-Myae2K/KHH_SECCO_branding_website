@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
-@import url("https://db.onlinewebfonts.com/c/03bd7255184e8e8ad4d2a521fa920b6c?family=PolySans+Neutral");
 
 @font-face {
   font-family: "Uni Burma";
@@ -34,9 +33,6 @@ body {
 body {
   overflow: auto; /* Allow scrolling */
 }
-
-
-
 
 @tailwind base;
 @tailwind components;

@@ -59,7 +59,9 @@ const HomeSection6 = () => {
             </span>{" "}
             an email on
           </p>
-          <p className="text-4xl lg:text-7xl">khhsecco@gmail.com</p>
+          <p className="text-4xl lg:text-7xl">
+            <a href="mailto:khhsecco@gmail.com">khhsecco@gmail.com</a>
+          </p>
         </div>
       </Container>
     </section>

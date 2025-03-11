@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import { HiArrowDownRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="col-span-1 space-y-3 text-5xl lg:text-6xl tracking-tight">
-            <p>Facebook</p>
+            <a href="https://www.facebook.com/silicagelseccomyanmar">Facebook</a>
             <p>Viber</p>
             <p>Instagram</p>
           </div>
@@ -20,10 +21,10 @@ const Footer = () => {
             <p>Yangon, Myanmar.</p>
           </div>
           <div className="col-span-1 md:ms-auto">
-            <div className="group hover:text-white hover:border-b-white inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-white">
+            <Link to="/contact" className="group hover:text-white hover:border-b-white inline-flex items-center gap-2 pe-1 mt-7 border-b-[1.5px] border-white">
               <HiArrowDownRight className="inline-block size-5 group-hover:-rotate-45 duration-200 " />
               <span className="md:text-xl text-base">Start to contact us</span>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="pt-20 ">
@@ -59,8 +60,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-5 md:text-base text-xs flex justify-between">
-          <p>copyright2024. All Rights Reserved</p>
-          <p>site by @chen</p>
+          <p>copyright&copy;{new Date().getFullYear()} All Rights Reserved</p>
+          <p><a href="mailto:tracycmkk@gmail.com">site by @chen</a></p>
         </div>
       </Container>
     </footer>

@@ -46,14 +46,14 @@ const Header = () => {
         </div>
 
         {/* Feel Free to Ask Section */}
-        <div className="z-20 text-small flex items-center justify-between px-2 py-1 text-ink font-instrument fixed right-5 top-2">
-          <p className="px-6 py-2 bg-white shadow-sm rounded-full">
+        <Link to={"/contact"} className="z-20  text-small flex items-center justify-between px-2 py-1 text-white font-instrument fixed right-5 top-2">
+          <p className="px-6 py-2 bg-clean shadow-sm rounded-full">
             Feel free to ask
           </p>
-          <div className="p-2 text-ink bg-white rounded-full shadow-sm">
+          <div className="p-2 text-white bg-clean rounded-full shadow-sm">
             <HiArrowUpRight className="size-7" />
           </div>
-        </div>
+        </Link>
       </div>
 
       <div className="block lg:hidden">
@@ -71,7 +71,7 @@ const Header = () => {
             />
           </button>
         </div>
-        
+
         {/* side bar */}
         <div
           className={`${
@@ -115,11 +115,14 @@ const Header = () => {
             </Link>
           ))}
           <p className="px-4 text-opacity-80 text-white pt-10">email us</p>
-          <p className="px-4 text-white ">khhcompany@gmail.com</p>
+          <p mailto="khhcompany@gmail.com" className="px-4 text-white ">khhcompany@gmail.com</p>
           <p className="px-4 text-opacity-80 text-white pt-5">social</p>
-          <p className="px-4 text-white ">Facebook</p>
-          <p className="px-4 text-opacity-80 text-white pt-5">social</p>
-          <p className="px-4 text-white ">Facebook</p>
+          <a
+            href="https://www.facebook.com/silicagelseccomyanmar"
+            className="px-4 text-white "
+          >
+            Facebook
+          </a>
           <p className="px-4 text-white ">Viber</p>
           <p className="px-4 text-white ">Instagram</p>
         </div>

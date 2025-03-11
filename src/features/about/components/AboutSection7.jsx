@@ -13,7 +13,7 @@ const AboutSection7 = () => {
           <p className="text-xl lg:text-4xl py-1">
             Feel free to reach out an email on
           </p>
-          <p className="text-4xl lg:text-7xl">khhsecco@gmail.com</p>
+          <p  className="text-4xl lg:text-7xl"><a href="mailto:khhsecco@gmail.com">khhsecco@gmail.com</a></p>
         </div>
       </Container>
     </section>
